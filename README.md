@@ -24,7 +24,6 @@
 - Game session:	A few minutes
 - Language(s):	English
 - Game control:	Keyboard, Gamepad (any)
-- It's only game template ("sketch") to simplify your own PC/OS-simulation game dev :)
 - UWP app : Min Win. SDK is 10240, Main Win. SDK is 19041  
 - For GodMode disabling, simply change GodMode = true to GodMode = false (at Game1.cs).
 
