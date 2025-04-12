@@ -9,7 +9,6 @@
 ## Screenshots
 ![W11](Images/sshot01.png)
 ![W11](Images/sshot02.png)
-![W11](Images/sshot03.png)
 
 
 ## Tech details
@@ -27,7 +26,7 @@
 - Game control:	Keyboard, Gamepad (any)
 - It's only game template ("sketch") to simplify your own PC/OS-simulation game dev :)
 - UWP app : Min Win. SDK is 10240, Main Win. SDK is 19041  
-
+- For GodMode disabling, simply change GodMode = true to GodMode = false (at Game1.cs).
 
 ## Game control via Touch panel
 - Mouse pointer "replication" (move left/right/up/down)
