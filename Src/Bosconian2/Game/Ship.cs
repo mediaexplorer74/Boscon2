@@ -157,6 +157,7 @@ namespace Starkiller
           //this.laserSound.Dispose();
           this.cooldown = 15;
         }
+
         if (this.cooldown != 0)
           --this.cooldown;
 
@@ -217,7 +218,9 @@ namespace Starkiller
             this.Position.Y = MathHelper.Clamp(this.Position.Y, 50f, (float) (this.Graphics.PreferredBackBufferHeight - this.Texture.Height));
         
       }
-      if (keyboardState.IsKeyUp(Keys.Space) && gamepadState.IsButtonUp(Buttons.X))
+      if (keyboardState.IsKeyUp(Keys.Space) 
+                && gamepadState.IsButtonUp(Buttons.X) 
+                && !IsTouchFiring(touchState))
         this.cooldown = 3;
       base.Update();
     }

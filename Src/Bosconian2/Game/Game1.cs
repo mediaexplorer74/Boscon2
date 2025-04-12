@@ -61,7 +61,7 @@ namespace Starkiller
       this.graphics.PreferredBackBufferWidth = 1280;
 
       //this.graphics.ToggleFullScreen();
-      this.graphics.IsFullScreen = false;
+      this.graphics.IsFullScreen = true;//false;
 
       this.graphics.ApplyChanges();
 
@@ -116,7 +116,7 @@ namespace Starkiller
             
             KeyboardState kbdState;
             int num1;
-            if (Keyboard.GetState().IsKeyDown(Keys.Enter) || IsTouchFiring(touchState))
+            if (Keyboard.GetState().IsKeyDown(Keys.Enter) /*|| IsTouchFiring(touchState)*/)
             {
                 kbdState = Keyboard.GetState();
                 num1 = kbdState.IsKeyDown(Keys.LeftAlt) ? 1 : 0;
@@ -132,7 +132,7 @@ namespace Starkiller
                 {
                     kbdState = Keyboard.GetState();
                     int num2;
-                    if ((!kbdState.IsKeyDown(Keys.Enter) || !this.lastKey.IsKeyUp(Keys.Enter)) && !IsTouchFiring(touchState))
+                    if ((!kbdState.IsKeyDown(Keys.Enter) || !this.lastKey.IsKeyUp(Keys.Enter))/* && !IsTouchFiring(touchState)*/)
                     {
                         if (GamePad.GetState(PlayerIndex.One).IsButtonDown(Buttons.Start) && this.lastButton.IsButtonUp(Buttons.Start))
                         {
@@ -158,7 +158,7 @@ namespace Starkiller
                         }
                         kbdState = Keyboard.GetState();
                         int num3;
-                        if ((!kbdState.IsKeyDown(Keys.Enter) || !this.lastKey.IsKeyUp(Keys.Enter)) && !IsTouchFiring(touchState))
+                        if ((!kbdState.IsKeyDown(Keys.Enter) || !this.lastKey.IsKeyUp(Keys.Enter))/* && !IsTouchFiring(touchState)*/)
                         {
                             if (GamePad.GetState(PlayerIndex.One).IsButtonDown(Buttons.Start) && this.lastButton.IsButtonUp(Buttons.Start))
                             {
@@ -193,7 +193,7 @@ namespace Starkiller
                 {
                     kbdState = Keyboard.GetState();
                     int num4;
-                    if ((!kbdState.IsKeyDown(Keys.Enter) || !this.lastKey.IsKeyUp(Keys.Enter)) && !IsTouchFiring(touchState))
+                    if ((!kbdState.IsKeyDown(Keys.Enter) || !this.lastKey.IsKeyUp(Keys.Enter)) /*&& !IsTouchFiring(touchState)*/)
                     {
                         if (GamePad.GetState(PlayerIndex.One).IsButtonDown(Buttons.Start) && this.lastButton.IsButtonUp(Buttons.Start))
                         {
