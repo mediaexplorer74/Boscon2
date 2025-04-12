@@ -12,7 +12,7 @@
 
 
 ## Tech details
-- My remake made:          April 12, 2025
+- My remake made:        Apr 12, 2025
 - Original updated:	 Feb 20, 2023
 - Original Published:	 Feb 12, 2016
 - Status:	                 Released
@@ -29,7 +29,7 @@
 - For GodMode disabling, simply change GodMode = true to GodMode = false (at Game1.cs).
 
 ## Game control via Touch panel
-- Mouse pointer "replication" (move left/right/up/down)
+- Swipe left/right/up/down to move left/right/up/down
 - Tap screen - enter or fire!
 
 ## ToDo
@@ -44,4 +44,4 @@ As is. No support. DIY. Learn purposes only.
 https://marcos92.itch.io/starkiller Original project
 
 ## ..
-[m][e] April 2025
+[m][e] *April, 12 2025*
