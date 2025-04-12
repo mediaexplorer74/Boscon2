@@ -9,7 +9,7 @@
 ## Screenshots
 ![W11](Images/sshot01.png)
 ![W11](Images/sshot02.png)
-
+![W10M, L950](Images/sshot03.png)
 
 ## Tech details
 - My remake made:        Apr 12, 2025
@@ -32,8 +32,8 @@
 - Tap screen - enter or fire!
 
 ## ToDo
-- Test game scaling on W10M
-- Check touch control on any W10M device
+- Fix game screen-scaling on any W10M-based flagman (Lumia 950 / 950XL) or hi-def UWMP
+- Improve touch control, add new swipes (main menu, gameplay)
 - Repair save-game storage
 
 ## .
